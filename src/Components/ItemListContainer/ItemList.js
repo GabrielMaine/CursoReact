@@ -6,14 +6,15 @@ const ItemList = ({item}) => {
   return (
     <div>
     <Container fluid>
-        <Row>
+        <Row className="  ">
           {item.map(p=> <Item
           key ={p.id}
           id ={p.id}
           image ={p.image}
           name ={p.name}
-          precio ={p.precio} 
-          initials={p.initials}       
+          precio ={p.price} 
+          initials={p.initials}
+          description={p.description}      
           />)}
         </Row>
       </Container>

@@ -18,7 +18,6 @@ function NavBar() {
               <Nav  className="me-auto">
                   <NavLink to='/' className="align-self-center px-2 py-3 text-decoration-none text-white" >Inicio</NavLink>
                   <NavLink to='/category/Tradicionales' className="align-self-center px-2 py-3 text-decoration-none text-white" >Tradicionales</NavLink>
-                  <NavLink to='/category/Gourmet' className="align-self-center px-2 py-3 text-decoration-none text-white" >Gourmet</NavLink>
                   <NavLink to='/category/Vegetarianas' className="align-self-center px-2 py-3 text-decoration-none text-white" >Vegetarianas</NavLink>
                   <NavLink to='/category/Bebidas' className="align-self-center px-2 py-3 text-decoration-none text-white" >Bebidas</NavLink>
                   <NavLink to='/Cart' className="align-self-center px-2 py-3 text-decoration-none text-white" ><CartWidget/></NavLink>
