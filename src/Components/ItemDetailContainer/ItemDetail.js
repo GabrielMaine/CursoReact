@@ -6,7 +6,7 @@ import { CartContext } from '../CartContext/CartContext';
 import { useContext } from 'react';
 import Error from '../Error/Error';
 
-const ItemDetail = ({item}) => {
+const ItemDetail = ({item, load}) => {
 
     const { addItem } = useContext(CartContext)
 
@@ -16,7 +16,7 @@ const ItemDetail = ({item}) => {
 
     return (
         <>
-        {item.name?
+        {item.name || load?
         <Card bg="light" data-bs-theme="light" className="container mt-4 shadow w-75 mx-auto">
             <Row>
                 <Col className="p-0">
