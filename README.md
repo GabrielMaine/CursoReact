@@ -17,3 +17,7 @@ Se utilizo Firebase para almacenar los datos de los productos y de las compras r
 # Repositorio de github
 
 https://github.com/GabrielMaine/CursoReact.git
+
+# Mi linkedin
+
+www.linkedin.com/in/gabriel-maine
